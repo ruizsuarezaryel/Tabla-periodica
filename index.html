@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periódica Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabla Periódica de los Elementos</h1>
+        <button id="toggle-theme">Cambiar Modo</button>
+        <div class="periodic-table">
+            <!-- Período 1 -->
+            <div class="element no-metal" data-atomic="1" tabindex="0">H</div>
+            <div class="element gas-noble" data-atomic="2" tabindex="0">He</div>
+
+            <!-- Período 2 -->
+            <div class="element metal-alcalino" data-atomic="3" tabindex="0">Li</div>
+            <div class="element metal-alcalinoterreo" data-atomic="4" tabindex="0">Be</div>
+            <div class="element metaloides" data-atomic="5" tabindex="0">B</div>
+            <div class="element no-metal" data-atomic="6" tabindex="0">C</div>
+            <div class="element no-metal" data-atomic="7" tabindex="0">N</div>
+            <div class="element no-metal" data-atomic="8" tabindex="0">O</div>
+            <div class="element halogeno" data-atomic="9" tabindex="0">F</div>
+            <div class="element gas-noble" data-atomic="10" tabindex="0">Ne</div>
+
+            <!-- Período 3 -->
+            <div class="element metal-alcalino" data-atomic="11" tabindex="0">Na</div>
+            <div class="element metal-alcalinoterreo" data-atomic="12" tabindex="0">Mg</div>
+            <div class="element metal" data-atomic="13" tabindex="0">Al</div>
+            <div class="element metaloides" data-atomic="14" tabindex="0">Si</div>
+            <div class="element no-metal" data-atomic="15" tabindex="0">P</div>
+            <div class="element no-metal" data-atomic="16" tabindex="0">S</div>
+            <div class="element halogeno" data-atomic="17" tabindex="0">Cl</div>
+            <div class="element gas-noble" data-atomic="18" tabindex="0">Ar</div>
+
+            <!-- Período 4 -->
+            <div class="element metal-alcalino" data-atomic="19" tabindex="0">K</div>
+            <div class="element metal-alcalinoterreo" data-atomic="20" tabindex="0">Ca</div>
+            <div class="element metal-transicion" data-atomic="21" tabindex="0">Sc</div>
+            <div class="element metal-transicion" data-atomic="22" tabindex="0">Ti</div>
+            <div class="element metal-transicion" data-atomic="23" tabindex="0">V</div>
+            <div class="element metal-transicion" data-atomic="24" tabindex="0">Cr</div>
+            <div class="element metal-transicion" data-atomic="25" tabindex="0">Mn</div>
+            <div class="element metal-transicion" data-atomic="26" tabindex="0">Fe</div>
+            <div class="element metal-transicion" data-atomic="27" tabindex="0">Co</div>
+            <div class="element metal-transicion" data-atomic="28" tabindex="0">Ni</div>
+            <div class="element metal-transicion" data-atomic="29" tabindex="0">Cu</div>
+            <div class="element metal-transicion" data-atomic="30" tabindex="0">Zn</div>
+            <div class="element metal" data-atomic="31" tabindex="0">Ga</div>
+            <div class="element metaloides" data-atomic="32" tabindex="0">Ge</div>
+            <div class="element metaloides" data-atomic="33" tabindex="0">As</div>
+            <div class="element no-metal" data-atomic="34" tabindex="0">Se</div>
+            <div class="element halogeno" data-atomic="35" tabindex="0">Br</div>
+            <div class="element gas-noble" data-atomic="36" tabindex="0">Kr</div>
+
+            <!-- Período 5 -->
+            <div class="element metal-alcalino" data-atomic="37" tabindex="0">Rb</div>
+            <div class="element metal-alcalinoterreo" data-atomic="38" tabindex="0">Sr</div>
+            <div class="element metal-transicion" data-atomic="39" tabindex="0">Y</div>
+            <div class="element metal-transicion" data-atomic="40" tabindex="0">Zr</div>
+            <div class="element metal-transicion" data-atomic="41" tabindex="0">Nb</div>
+            <div class="element metal-transicion" data-atomic="42" tabindex="0">Mo</div>
+            <div class="element metal-transicion" data-atomic="43" tabindex="0">Tc</div>
+            <div class="element metal-transicion" data-atomic="44" tabindex="0">Ru</div>
+            <div class="element metal-transicion" data-atomic="45" tabindex="0">Rh</div>
+            <div class="element metal-transicion" data-atomic="46" tabindex="0">Pd</div>
+            <div class="element metal-transicion" data-atomic="47" tabindex="0">Ag</div>
+            <div class="element metal-transicion" data-atomic="48" tabindex="0">Cd</div>
+            <div class="element metal" data-atomic="49" tabindex="0">In</div>
+            <div class="element metal" data-atomic="50" tabindex="0">Sn</div>
+            <div class="element metaloides" data-atomic="51" tabindex="0">Sb</div>
+            <div class="element metaloides" data-atomic="52" tabindex="0">Te</div>
+            <div class="element halogeno" data-atomic="53" tabindex="0">I</div>
+            <div class="element gas-noble" data-atomic="54" tabindex="0">Xe</div>
+
+            <!-- Período 6 -->
+            <div class="element metal-alcalino" data-atomic="55" tabindex="0">Cs</div>
+            <div class="element metal-alcalinoterreo" data-atomic="56" tabindex="0">Ba</div>
+            <div class="element lantanido" data-atomic="57" tabindex="0">La</div>
+            <div class="element metal-transicion" data-atomic="72" tabindex="0">Hf</div>
+            <div class="element metal-transicion" data-atomic="73" tabindex="0">Ta</div>
+            <div class="element metal-transicion" data-atomic="74" tabindex="0">W</div>
+            <div class="element metal-transicion" data-atomic="75" tabindex="0">Re</div>
+            <div class="element metal-transicion" data-atomic="76" tabindex="0">Os</div>
+            <div class="element metal-transicion" data-atomic="77" tabindex="0">Ir</div>
+            <div class="element metal-transicion" data-atomic="78" tabindex="0">Pt</div>
+            <div class="element metal-transicion" data-atomic="79" tabindex="0">Au</div>
+            <div class="element metal-transicion" data-atomic="80" tabindex="0">Hg</div>
+            <div class="element metal" data-atomic="81" tabindex="0">Tl</div>
+            <div class="element metal" data-atomic="82" tabindex="0">Pb</div>
+            <div class="element metal" data-atomic="83" tabindex="0">Bi</div>
+            <div class="element metal" data-atomic="84" tabindex="0">Po</div>
+            <div class="element halogeno" data-atomic="85" tabindex="0">At</div>
+            <div class="element gas-noble" data-atomic="86" tabindex="0">Rn</div>
+
+            <!-- Período 7 -->
+            <div class="element metal-alcalino" data-atomic="87" tabindex="0">Fr</div>
+            <div class="element metal-alcalinoterreo" data-atomic="88" tabindex="0">Ra</div>
+            <div class="element actinido" data-atomic="89" tabindex="0">Ac</div>
+            <div class="element metal-transicion" data-atomic="104" tabindex="0">Rf</div>
+            <div class="element metal-transicion" data-atomic="105" tabindex="0">Db</div>
+            <div class="element metal-transicion" data-atomic="106" tabindex="0">Sg</div>
+            <div class="element metal-transicion" data-atomic="107" tabindex="0">Bh</div>
+            <div class="element metal-transicion" data-atomic="108" tabindex="0">Hs</div>
+            <div class="element metal-transicion" data-atomic="109" tabindex="0">Mt</div>
+            <div class="element metal-transicion" data-atomic="110" tabindex="0">Ds</div>
+            <div class="element metal-transicion" data-atomic="111" tabindex="0">Rg</div>
+            <div class="element metal-transicion" data-atomic="112" tabindex="0">Cn</div>
+            <div class="element metal" data-atomic="113" tabindex="0">Nh</div>
+            <div class="element metal" data-atomic="114" tabindex="0">Fl</div>
+            <div class="element metal" data-atomic="115" tabindex="0">Mc</div>
+            <div class="element metal" data-atomic="116" tabindex="0">Lv</div>
+            <div class="element halogeno" data-atomic="117" tabindex="0">Ts</div>
+            <div class="element gas-noble" data-atomic="118" tabindex="0">Og</div>
+
+            <!-- Serie Lantánidos -->
+            <div class="element lantanido" data-atomic="58" tabindex="0">Ce</div>
+            <div class="element lantanido" data-atomic="59" tabindex="0">Pr</div>
+            <div class="element lantanido" data-atomic="60" tabindex="0">Nd</div>
+            <div class="element lantanido" data-atomic="61" tabindex="0">Pm</div>
+            <div class="element lantanido" data-atomic="62" tabindex="0">Sm</div>
+            <div class="element lantanido" data-atomic="63" tabindex="0">Eu</div>
+            <div class="element lantanido" data-atomic="64" tabindex="0">Gd</div>
+            <div class="element lantanido" data-atomic="65" tabindex="0">Tb</div>
+            <div class="element lantanido" data-atomic="66" tabindex="0">Dy</div>
+            <div class="element lantanido" data-atomic="67" tabindex="0">Ho</div>
+            <div class="element lantanido" data-atomic="68" tabindex="0">Er</div>
+            <div class="element lantanido" data-atomic="69" tabindex="0">Tm</div>
+            <div class="element lantanido" data-atomic="70" tabindex="0">Yb</div>
+            <div class="element lantanido" data-atomic="71" tabindex="0">Lu</div>
+
+            <!-- Serie Actínidos -->
+            <div class="element actinido" data-atomic="90" tabindex="0">Th</div>
+            <div class="element actinido" data-atomic="91" tabindex="0">Pa</div>
+            <div class="element actinido" data-atomic="92" tabindex="0">U</div>
+            <div class="element actinido" data-atomic="93" tabindex="0">Np</div>
+            <div class="element actinido" data-atomic="94" tabindex="0">Pu</div>
+            <div class="element actinido" data-atomic="95" tabindex="0">Am</div>
+            <div class="element actinido" data-atomic="96" tabindex="0">Cm</div>
+            <div class="element actinido" data-atomic="97" tabindex="0">Bk</div>
+            <div class="element actinido" data-atomic="98" tabindex="0">Cf</div>
+            <div class="element actinido" data-atomic="99" tabindex="0">Es</div>
+            <div class="element actinido" data-atomic="100" tabindex="0">Fm</div>
+            <div class="element actinido" data-atomic="101" tabindex="0">Md</div>
+            <div class="element actinido" data-atomic="102" tabindex="0">No</div>
+            <div class="element actinido" data-atomic="103" tabindex="0">Lr</div>
+        </div>
+    </div>
+
+    <div class="modal" id="elementModal">
+        <div class="modal-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
